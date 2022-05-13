@@ -1,0 +1,126 @@
+:root {
+    --colordtitulo:#bd9036;
+    --colordborde: #d1cfc5 ;
+    --color2borde:#7f7fe0;
+    --colordsudtitulo:#d4c3c3;
+    --miancho: width: 95% ;
+    --mipaddin: 17px;
+    --colordfondo:#d3d3c5f5;
+    --mibackground:#41413c; 
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-transform: uppercase;
+    background: radial-gradient(#7f8d8b, transparent);
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    color:var(--colordsudtitulo);
+    background:var(--mibackground);
+    padding: 15px;
+    font-size: 25px;
+    border: 1px solid var(--colordborde);
+}
+
+h1{
+    letter-spacing: 17px;
+}
+
+
+.PORTADA img{
+    background: url(/pryt.LOCOSAdams/fotos/portada.jpg) no-repeat center top;
+    width:var(--miancho);
+    height: 687px;
+    border: 0.5px solid var(--colordborde) ;
+    margin: 5px 0;
+}
+
+.PORTADA{
+    background:var(--mifondo);
+    text-align: center ;
+    background: radial-gradient(#2f5ecf, transparent);
+}
+
+.decor{
+    display: flex;
+    justify-content: left;
+}
+
+h2{
+    padding:var(--mipaddin);
+    background: var(--mibackground);
+    color:var(--colordsudtitulo);
+    border-radius: 22px;
+    border: 2px solid var(--colordborde);
+    margin-top: 68px;
+    margin-bottom: 10px;
+    
+}
+
+.fotos img{
+    width: 200px;
+    height:255px;
+}
+
+img:hover{
+    border: 1px solid var(--colordsudtitulo);
+    text-align: center;
+    margin: 8px;
+    transition: 0.50s;
+    outline: none;
+}
+
+.fotos{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   background: linear-gradient(to bottom, #3f6881bf, white);
+   border: 4px solid var(--colordborde);
+   border-radius: 25px;
+   margin:5px 70px;
+   height:auto;
+}
+
+.barra{
+    background: var(--color2borde);
+    padding: 0.5px;
+}
+
+.familias{
+    background: radial-gradient(#70a39a, transparent);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+
+h3{
+    margin-top:50px;
+    margin-bottom: 15px;
+    color:var(--color2borde);
+    text-align: center;
+}
+
+li{
+    list-style:none;
+    text-align: center;
+}
+
+ul{
+    margin-bottom: 50px
+}
+
+
+    
+
